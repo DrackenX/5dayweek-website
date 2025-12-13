@@ -1,8 +1,50 @@
 <style>
-  body {
-    background-color: blue;
-      }
+    /* body { */
+        /* margin: 10px; */
+        /* border: 10px; */
+        /* border-color: rgb(177, 35, 66); */
+        /* background-color: rgb(183, 138, 193); */
+        /* } */
+
+    body {
+        padding: 25px;
+        /* border: 10px; */
+        /* border-color: aqua; */
+        margin: 0;
+        height: 100vh;
+        /* Gradient background */
+        background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fad0c4, #fbc2eb, #a6c1ee);
+        background-size: 400% 400%;
+        animation: gradientBG 5s ease infinite;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    h1 {
+      text-align: center;
+      color: white;
+      font-family: Arial, sans-serif;
+      padding-top: 20%;
+    }
+
+    .whatis {
+        background-color: rgb(54, 132, 201);
+        color: white;
+        border: 5px;
+        height: 50px;
+        width: 110px;
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: 15px;
+        margin-left: 8px;
+        cursor: pointer;
+        }
 </style>
+
 <h1>5 Day Week for bank employees</h1>
 <p>This is not just a demand, this is a necessity</p>
 <br>
@@ -16,5 +58,6 @@ The RBI has officially stated that it has not issued any instructions for a 5-da
 <br>Implementation pending: 
 Despite the agreement between the Indian Banks' Association (IBA) and employee unions to recommend a 5-day work week, the implementation has not yet taken place. 
 </p>
+
 
 
